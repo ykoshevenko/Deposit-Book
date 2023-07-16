@@ -1,0 +1,158 @@
+.had {
+    background-color: #d96653;
+}
+
+.int1 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin-top: -20px;
+    margin-right: 280px;
+}
+
+.h11 {
+    cursor: pointer;
+    margin-left: 200px;
+    margin-bottom: -10px;
+    color: #eee54f;
+}
+
+.h13 {
+    margin-bottom: -10px;
+    color: #eee54f;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menuAA {
+    background-color: #c45b4a;
+    color: white;
+    width: 280px;
+    height: auto;
+}
+
+.h12 {
+    text-align: center;
+}
+
+.booksConteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 45px;
+    width: 80%;
+    max-width: 1200px;
+    min-width: 250px;
+    margin: var(--spacing-large) auto;
+    word-wrap: break-word;
+}
+
+.book-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.book-element__image {
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+}
+
+.book-element__name {
+    text-align: center;
+}
+
+.book-element__all {
+    text-align: justify;
+    border: 2px solid black;
+    margin-top: var(--spasing-medium);
+    padding: var(--spacing-small) var(--spasing-medium);
+}
+
+.a11 {
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.a12 {
+    margin-left: 10px;
+}
+
+/*|||||| Modal window ||||||*/
+
+.popup-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opasity .4, visibility .4s;
+}
+
+.popup {
+    position: relative;
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 0px 77px 61px rgba(34, 60, 80, 0.2);
+    transform: scale(0);
+    transition: transform .8s;
+    text-align: center;
+}
+
+.popup-bg.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup-bg.open .popup{
+    transform: scale(1);
+}
+
+.int6 {
+    margin-left: 20px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.h40 {
+    font-size: 130%;
+    margin-top: 40px;
+    
+}
+
+.p {
+    color: white;
+}
+
+.p34 {
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.p35 {
+    margin-top: 20px;
+}
+
+.svg {
+    width: 150px;
+    height: 150px;
+}

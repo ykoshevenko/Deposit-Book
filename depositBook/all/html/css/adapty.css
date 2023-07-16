@@ -1,0 +1,68 @@
+/*|||||| From Telefone ||||||*/
+@media only screen and (max-width: 412px) {
+    .h11 {
+        margin-left: 10px;
+    }
+
+    .int1 {
+        margin-right: 10px;
+        width: 50%;
+    }
+
+    .menuAA {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .h11 {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .h11 {
+        margin-left: 100px;
+    }
+
+    .int1 {
+        margin-right: 50px;
+        width: 40%;
+    }
+
+    .menuAA {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .h11 {
+        margin-left: 10px;
+    }
+
+    .int1 {
+        margin-right: 10px;
+    }
+
+    .menuAA {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .h11 {
+        margin-left: 50px;
+    }
+}
+
+/*|||||| From Desctop ||||||*/
+@media only screen and (max-width: 426px) {
+    .h11 {
+        font-size: 170%;
+        margin-left: 10px;
+    }
+
+    .int1 {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DepositBook - это каталог книг, со колличеством в чуть больше 150 книг. Этот сервис является абсолютно бесплатным. Это не просто школьный сайт, это сайт с множеством книг на любой вкус. Вы сможете найти книгу вам по душе!">
+    <title>Главная страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/adapty.css">
+    <link rel="icon" href="js/images/icon.png">
+</head>
+<body>
+    <div class="had">
+        <h1 id="open" class="h11">DepositBook</h1>
+        <input class="int1" id="searchInput" type="text" placeholder="Что ищите?"> <br>
+    </div>
+
+    <div class="menuAA">
+        <h5 class="a12">Для школы</h5>
+        <a class="a11" onclick="window.location.href='5class.html'">5 класс</a> <br>
+        <a class="a11" onclick="window.location.href='6class.html'">6 класс</a> <br>
+        <a class="a11" onclick="window.location.href='7class.html'">7 класс</a> <br>
+        <a class="a11" onclick="window.location.href='8class.html'">8 класс</a> <br>
+        <a class="a11" onclick="window.location.href='9class.html'">9 класс</a> <br>
+        <a class="a11" onclick="window.location.href='10class.html'">10 класс</a> <br>
+        <a class="a11" onclick="window.location.href='11class.html'">11 класс</a> <br>
+        <h5 class="a12">Для свобод. чтения</h5>
+        <a class="a11" onclick="window.location.href='fantastic.html'">Науч. фантастика</a>
+        <br>
+    </div>
+
+    <h1 class="h12">Популярное</h1>
+
+    <div class="booksMenu">
+        <ul id="resultsContainer" class="booksConteiner"></ul>
+    </div>
+
+    <div id="modal01" class="popup-bg">
+		<div class="popup">
+			<div id="close01" class="close">X</div>
+			<h1 class="h40">У вас появилась идея <br> для улучшения сайта!?</h1>
+			<p class="p35">Если это так, или вы нашли баг, <br> то отправьте информацию нам на почту</p>
+			<p class="p35">depositbook@internet.ru</p>
+		</div>
+	</div>
+
+    <script src="js/search.js"></script>
+</body>
+</html>
